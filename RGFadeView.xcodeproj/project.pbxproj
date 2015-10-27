@@ -17,6 +17,11 @@
 		A2E21C0E1BDF7996006CA945 /* RGFadeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E21C0D1BDF7996006CA945 /* RGFadeViewUITests.m */; };
 		A2E21C1D1BDF79D8006CA945 /* RGFadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E21C1C1BDF79D8006CA945 /* RGFadeView.m */; settings = {ASSET_TAGS = (); }; };
 		A2E21C1F1BDF79E9006CA945 /* RGFadeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E21C1E1BDF79E9006CA945 /* RGFadeView.xib */; settings = {ASSET_TAGS = (); }; };
+		A2E21C251BDF7E5C006CA945 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E21C211BDF7E5C006CA945 /* close@2x.png */; settings = {ASSET_TAGS = (); }; };
+		A2E21C261BDF7E5C006CA945 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E21C221BDF7E5C006CA945 /* close@3x.png */; settings = {ASSET_TAGS = (); }; };
+		A2E21C271BDF7E5C006CA945 /* send@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E21C231BDF7E5C006CA945 /* send@2x.png */; settings = {ASSET_TAGS = (); }; };
+		A2E21C281BDF7E5C006CA945 /* send@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E21C241BDF7E5C006CA945 /* send@3x.png */; settings = {ASSET_TAGS = (); }; };
+		A2E21C2B1BDF8264006CA945 /* UIView+RGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E21C2A1BDF8264006CA945 /* UIView+RGSize.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,13 @@
 		A2E21C1B1BDF79D8006CA945 /* RGFadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGFadeView.h; sourceTree = "<group>"; };
 		A2E21C1C1BDF79D8006CA945 /* RGFadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGFadeView.m; sourceTree = "<group>"; };
 		A2E21C1E1BDF79E9006CA945 /* RGFadeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RGFadeView.xib; sourceTree = "<group>"; };
+		A2E21C211BDF7E5C006CA945 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		A2E21C221BDF7E5C006CA945 /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		A2E21C231BDF7E5C006CA945 /* send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send@2x.png"; sourceTree = "<group>"; };
+		A2E21C241BDF7E5C006CA945 /* send@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send@3x.png"; sourceTree = "<group>"; };
+		A2E21C291BDF8264006CA945 /* UIView+RGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RGSize.h"; sourceTree = "<group>"; };
+		A2E21C2A1BDF8264006CA945 /* UIView+RGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RGSize.m"; sourceTree = "<group>"; };
+		A2E21C2C1BDF8405006CA945 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,9 @@
 		A2E21BE71BDF7996006CA945 /* RGFadeView */ = {
 			isa = PBXGroup;
 			children = (
+				A2E21C2C1BDF8405006CA945 /* Constant.h */,
+				A2E21C291BDF8264006CA945 /* UIView+RGSize.h */,
+				A2E21C2A1BDF8264006CA945 /* UIView+RGSize.m */,
 				A2E21C1B1BDF79D8006CA945 /* RGFadeView.h */,
 				A2E21C1C1BDF79D8006CA945 /* RGFadeView.m */,
 				A2E21C1E1BDF79E9006CA945 /* RGFadeView.xib */,
@@ -114,6 +129,7 @@
 				A2E21BEE1BDF7996006CA945 /* ViewController.h */,
 				A2E21BEF1BDF7996006CA945 /* ViewController.m */,
 				A2E21BF11BDF7996006CA945 /* Main.storyboard */,
+				A2E21C201BDF7E42006CA945 /* Image */,
 				A2E21BF41BDF7996006CA945 /* Assets.xcassets */,
 				A2E21BF61BDF7996006CA945 /* LaunchScreen.storyboard */,
 				A2E21BF91BDF7996006CA945 /* Info.plist */,
@@ -146,6 +162,17 @@
 				A2E21C0F1BDF7996006CA945 /* Info.plist */,
 			);
 			path = RGFadeViewUITests;
+			sourceTree = "<group>";
+		};
+		A2E21C201BDF7E42006CA945 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A2E21C211BDF7E5C006CA945 /* close@2x.png */,
+				A2E21C221BDF7E5C006CA945 /* close@3x.png */,
+				A2E21C231BDF7E5C006CA945 /* send@2x.png */,
+				A2E21C241BDF7E5C006CA945 /* send@3x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E21C271BDF7E5C006CA945 /* send@2x.png in Resources */,
+				A2E21C261BDF7E5C006CA945 /* close@3x.png in Resources */,
+				A2E21C251BDF7E5C006CA945 /* close@2x.png in Resources */,
+				A2E21C281BDF7E5C006CA945 /* send@3x.png in Resources */,
 				A2E21BF81BDF7996006CA945 /* LaunchScreen.storyboard in Resources */,
 				A2E21BF51BDF7996006CA945 /* Assets.xcassets in Resources */,
 				A2E21BF31BDF7996006CA945 /* Main.storyboard in Resources */,
@@ -279,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E21C2B1BDF8264006CA945 /* UIView+RGSize.m in Sources */,
 				A2E21BF01BDF7996006CA945 /* ViewController.m in Sources */,
 				A2E21BED1BDF7996006CA945 /* AppDelegate.m in Sources */,
 				A2E21BEA1BDF7996006CA945 /* main.m in Sources */,

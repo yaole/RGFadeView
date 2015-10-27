@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RGFadeView : UIView
+@interface RGFadeView : UIView <UITextViewDelegate>
+
+- (void)setUpFadeViewWithTipString:(NSString *)tipStr;
 
 @end
