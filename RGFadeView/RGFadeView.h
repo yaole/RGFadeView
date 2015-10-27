@@ -10,6 +10,6 @@
 
 @interface RGFadeView : UIView <UITextViewDelegate>
 
-- (void)setUpFadeViewWithTipString:(NSString *)tipStr;
+@property (weak, nonatomic) IBOutlet UITextView *msgTextView;
 
 @end
