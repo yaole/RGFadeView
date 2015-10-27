@@ -26,7 +26,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.head.layer.cornerRadius = self.head.width / 2;
-//    self.editBtn.backgroundColor = [UIColor whiteColor];
     self.editBtn.layer.cornerRadius = 10;
     self.editBtn.layer.borderWidth = 1;
     self.editBtn.layer.borderColor = [UIColor whiteColor].CGColor;

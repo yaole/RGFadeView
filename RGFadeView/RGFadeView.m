@@ -48,11 +48,12 @@
     self.customView.bottom = self.bottom;
     self.backgroundColor = [UIColor clearColor];
     self.alpha = 0;
-    [self addSubview:self.customView];
-    
+
     UIView *maskView = [[UIView alloc] initWithFrame:self.bounds];
-    maskView.backgroundColor = RGBA(0, 0, 0, 0.3);
+    maskView.backgroundColor = RGBA(0, 0, 0, 0.5);
     [self addSubview:maskView];
+    
+    [self addSubview:self.customView];
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(close:)];
     [maskView addGestureRecognizer:tap];
