@@ -23,7 +23,7 @@
 		A2E21C281BDF7E5C006CA945 /* send@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E21C241BDF7E5C006CA945 /* send@3x.png */; };
 		A2E21C2B1BDF8264006CA945 /* UIView+RGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E21C2A1BDF8264006CA945 /* UIView+RGSize.m */; };
 		FB33301F1BDFBB500091A88F /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = FB33301E1BDFBB500091A88F /* head.png */; };
-		FB3330211BDFC5C20091A88F /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB3330201BDFC5C20091A88F /* gif.gif */; };
+		FB3330211BDFC5C20091A88F /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB3330201BDFC5C20091A88F /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +71,7 @@
 		A2E21C2A1BDF8264006CA945 /* UIView+RGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RGSize.m"; sourceTree = "<group>"; };
 		A2E21C2C1BDF8405006CA945 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		FB33301E1BDFBB500091A88F /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
-		FB3330201BDFC5C20091A88F /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
+		FB3330201BDFC5C20091A88F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +171,7 @@
 		A2E21C201BDF7E42006CA945 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				FB3330201BDFC5C20091A88F /* gif.gif */,
+				FB3330201BDFC5C20091A88F /* demo.gif */,
 				FB33301E1BDFBB500091A88F /* head.png */,
 				A2E21C211BDF7E5C006CA945 /* close@2x.png */,
 				A2E21C221BDF7E5C006CA945 /* close@3x.png */,
@@ -293,7 +293,7 @@
 				A2E21BF51BDF7996006CA945 /* Assets.xcassets in Resources */,
 				A2E21BF31BDF7996006CA945 /* Main.storyboard in Resources */,
 				A2E21C1F1BDF79E9006CA945 /* RGFadeView.xib in Resources */,
-				FB3330211BDFC5C20091A88F /* gif.gif in Resources */,
+				FB3330211BDFC5C20091A88F /* demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
