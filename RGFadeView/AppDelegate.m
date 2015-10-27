@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  RGFadeView
 //
-//  Created by Arvin on 15/10/27.
+//  Created by roroge on 15/10/27.
 //  Copyright © 2015年 com.roroge. All rights reserved.
 //
 

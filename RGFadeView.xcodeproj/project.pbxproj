@@ -15,6 +15,8 @@
 		A2E21BF81BDF7996006CA945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E21BF61BDF7996006CA945 /* LaunchScreen.storyboard */; };
 		A2E21C031BDF7996006CA945 /* RGFadeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E21C021BDF7996006CA945 /* RGFadeViewTests.m */; };
 		A2E21C0E1BDF7996006CA945 /* RGFadeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E21C0D1BDF7996006CA945 /* RGFadeViewUITests.m */; };
+		A2E21C1D1BDF79D8006CA945 /* RGFadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E21C1C1BDF79D8006CA945 /* RGFadeView.m */; settings = {ASSET_TAGS = (); }; };
+		A2E21C1F1BDF79E9006CA945 /* RGFadeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E21C1E1BDF79E9006CA945 /* RGFadeView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A2E21C091BDF7996006CA945 /* RGFadeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGFadeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E21C0D1BDF7996006CA945 /* RGFadeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGFadeViewUITests.m; sourceTree = "<group>"; };
 		A2E21C0F1BDF7996006CA945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E21C1B1BDF79D8006CA945 /* RGFadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGFadeView.h; sourceTree = "<group>"; };
+		A2E21C1C1BDF79D8006CA945 /* RGFadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGFadeView.m; sourceTree = "<group>"; };
+		A2E21C1E1BDF79E9006CA945 /* RGFadeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RGFadeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 		A2E21BE71BDF7996006CA945 /* RGFadeView */ = {
 			isa = PBXGroup;
 			children = (
+				A2E21C1B1BDF79D8006CA945 /* RGFadeView.h */,
+				A2E21C1C1BDF79D8006CA945 /* RGFadeView.m */,
+				A2E21C1E1BDF79E9006CA945 /* RGFadeView.xib */,
 				A2E21BEB1BDF7996006CA945 /* AppDelegate.h */,
 				A2E21BEC1BDF7996006CA945 /* AppDelegate.m */,
 				A2E21BEE1BDF7996006CA945 /* ViewController.h */,
@@ -246,6 +254,7 @@
 				A2E21BF81BDF7996006CA945 /* LaunchScreen.storyboard in Resources */,
 				A2E21BF51BDF7996006CA945 /* Assets.xcassets in Resources */,
 				A2E21BF31BDF7996006CA945 /* Main.storyboard in Resources */,
+				A2E21C1F1BDF79E9006CA945 /* RGFadeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 				A2E21BF01BDF7996006CA945 /* ViewController.m in Sources */,
 				A2E21BED1BDF7996006CA945 /* AppDelegate.m in Sources */,
 				A2E21BEA1BDF7996006CA945 /* main.m in Sources */,
+				A2E21C1D1BDF79D8006CA945 /* RGFadeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
